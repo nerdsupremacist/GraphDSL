@@ -44,3 +44,6 @@ fun main() {
 
 This is only a proof of concept. The generated code actually won't generate any queries yet. It only provides the API. The code will crash due to inserted TODOs.
 It will write the query code in the future
+
+This script also doesn't handle interfaces or union types yet.
+This script does not handle default values for the fields other than `null`

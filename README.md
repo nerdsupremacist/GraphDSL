@@ -10,7 +10,7 @@ For example:
 Run the script:
 
 ```
-executable https://swapi-graphql.netlify.com/.netlify/functions/index
+[path-executable] https://swapi-graphql.netlify.com/.netlify/functions/index
 ```
 
 With the generated code you can create queries in the following format:

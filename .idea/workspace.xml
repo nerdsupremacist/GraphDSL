@@ -51,8 +51,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/schema/Type.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="298">
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+              <folding>
+                <element signature="e#37#143#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,11 +81,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/builder/ExtensionFunctionBuilder.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="315">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/QueryBuilder.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/TypeQueryCompanionObject.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+              <folding>
+                <element signature="e#38#159#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,15 +125,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/builder/TypeBuilder.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -143,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/Type.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/Schema.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/graphql/Argument.kt" />
         <option value="$PROJECT_DIR$/build.gradle.kts" />
@@ -187,13 +201,14 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/schema/Field.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/schema/Schema.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/builder/DataClassBuilder.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/schema/Type.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/QueryBuilder.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/String+prependIndentExceptFirstLine.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/builder/ClassBuilder.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/builder/EnumBuilder.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/builder/FunctionBuilder.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/builder/ExtensionFunctionBuilder.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/schema/Type.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/TypeQueryCompanionObject.kt" />
       </list>
     </option>
   </component>
@@ -377,12 +392,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577660824745</updated>
-      <workItem from="1577660827260" duration="18244000" />
+      <workItem from="1577660827260" duration="18795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18244000" />
+    <option name="totallyTimeSpent" value="18795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -393,7 +408,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33279485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33279485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50080776" side_tool="true" weight="0.82328767" />
@@ -405,7 +420,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.39863014" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.39863014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47671232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -625,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/QueryBuilder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/builder/TypeBuilder.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -650,13 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/schema/Type.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -707,8 +708,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/builder/ExtensionFunctionBuilder.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/QueryBuilder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/schema/Type.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="e#37#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/quintero/graphdsl/codegen/TypeQueryCompanionObject.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+          <folding>
+            <element signature="e#38#159#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

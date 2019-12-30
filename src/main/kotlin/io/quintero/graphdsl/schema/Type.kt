@@ -1,5 +1,6 @@
 package io.quintero.graphdsl.schema
 
+import io.quintero.graphdsl.codegen.TypeQueryCompanionObject
 import io.quintero.graphdsl.codegen.builder.*
 
 data class Type(
@@ -36,9 +37,13 @@ data class Type(
                         }
                     }
                 }
+
+                +TypeQueryCompanionObject(this@Type.name)
             }
 
         }
+
+
 
         when (kind) {
 

@@ -21,7 +21,7 @@ class ArgumentBuilder : CodeBuilder<ArgumentBuilder> {
 
     @KotlinCodeBuilderDsl
     fun build(): String {
-        defaultValue?.let { "$name: ${type.build()} = ${it.build()}" }
+        defaultValue?.let { return "$name: ${type.build()} = ${it.build()}" }
         return "$name: ${type.build()}"
     }
 }

@@ -11,6 +11,9 @@ data class Argument(
 
     override fun ArgumentBuilder.invoke() {
         name = this@Argument.name
+        if (type.kind != Kind.NON_NULL) {
+            defaultValue { +"null" }
+        }
         type {
             idenfitier { +type }
         }
